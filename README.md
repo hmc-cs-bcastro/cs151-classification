@@ -1,5 +1,5 @@
 ## Project 6: Classification
-
+Version 1.003. Last Updated: 10/16/2017.
 
 <div class="project">
 
@@ -8,6 +8,23 @@ Which Digit?
 
 ![](https://github.com/HEATlab/cs151-classification/blob/master/pacman_multi_agent.png)  
 Which action?
+
+* * *
+
+### Table of Contents
+
+*   [Introduction](#Introduction)
+*   [Welcome](#Welcome)
+*   [Q1: Perceptron](#Q1)
+*   [Q2: Perceptron Analysis](#Q2)
+*   [Q3: MIRA](#Q3)
+*   [Q4: Digit Feature Design](#Q4)
+*   [Q5: Behavioral Cloning](#Q5)
+*   [Q6: Pacman Feature Design](#Q6)
+*   [Glossary](#Glossary)
+*   [Submission](#Submission)
+
+* * *
 
 
 ### <a name="Introduction"></a>Introduction
@@ -358,3 +375,20 @@ You can also use the `--agentToClone <Agent Name>` option to use one of the fo
 `python pacman.py -p ClassifierAgent --agentArgs agentToClone=<Agent Name>`
 
 _Congratulations! You've finished with your CS 151 project requirements!_
+
+
+### <a name="Glossary"></a>Object Glossary
+
+***Coming soon!***
+
+### <a name="Submission"></a>Submission
+
+Prior to submitting, be sure you run the autograder on your own machine. Running the autograder locally will help you to debug and expediate your development process. The autograder can be invoked on your own machine using the command:
+
+<pre>python autograder.py</pre>
+
+To run the autograder on a single question, such as question 3, invoke it by
+
+<pre>python autograder.py -q q3</pre>
+
+Note that running the autograder locally will **not** register your grades with us. To submit your P5 code, please visit our class's [Gradescope submission site.](https://gradescope.com/courses/8921/assignments/32056/) There you will **submit `bustersAgents.py` and `inference.py`** to the Project 5 assignment. You and your partner may submit as a group.
