@@ -211,11 +211,9 @@ Fill in the `train` method in `perceptron.py`. Run your code with:
 
 </div>
 
-### QUESTION 2 (1 POINT): PERCEPTRON ANALYSIS
+### <a name="Q2"></a>QUESTION 2 (1 POINT): PERCEPTRON ANALYSIS
 
 #### Visualizing weights
-
-### <a name="Q2"></a>
 
 Perceptron classifiers, and other discriminative methods, are often criticized because the parameters they learn are hard to interpret. To see a demonstration of this issue, we can write a function to find features that are characteristic of one class. (Note that, because of the way perceptrons are trained, it is not as crucial to find odds ratios.)
 
@@ -239,9 +237,7 @@ Answer the question `answers.py` in the method `q2`, returning either 'a' or 
 
 <div class="project">
 
-### QUESTION 3 (6 POINTS): MIRA
-
-### <a name="Q3"></a>
+### <a name="Q3"></a>QUESTION 3 (6 POINTS): MIRA
 
 A skeleton implementation of the MIRA classifier is provided for you in `mira.py`. MIRA is an online learner which is closely related to both the support vector machine and perceptron classifiers. You will fill in the `trainAndTune` function.
 
@@ -293,7 +289,7 @@ Implement `trainAndTune` in `mira.py`. This method should train a MIRA classi
 
 <div class="project">
 
-### QUESTION 4 (6 POINTS): DIGIT FEATURE DESIGN
+### <a name="Q4"></a>QUESTION 4 (6 POINTS): DIGIT FEATURE DESIGN
 
 Building classifiers is only a small part of getting a good system working for a task. Indeed, the main difference between a good classification system and a bad one is usually not the classifier itself (e.g. perceptron vs. naive Bayes), but rather the quality of the features used. So far, we have used the simplest possible features: the identity of each pixel (being on/off).
 
@@ -309,13 +305,11 @@ Add new binary features for the digit dataset in the `EnhancedFeatureExtractorD
 
 With the basic features (without the `-f` option), your optimal choice of smoothing parameter should yield 82% on the validation set with a test performance of 78%. You will receive 3 points for implementing new feature(s) which yield any improvement at all. You will receive 3 additional points if your new feature(s) give you a test performance greater than or equal to 84% with the above command.
 
-### <a name="Q4"></a>
-
 </div>
 
-### QUESTION 5 (4 POINTS): BEHAVIORAL CLONING
+### <a name="Q5"></a>QUESTION 5 (4 POINTS): BEHAVIORAL CLONING
 
-### <a name="Q5"></a>
+
 
 You have built two different types of classifiers, a perceptron classifier and mira. You will now use a modified version of perceptron in order to learn from pacman agents. In this question, you will fill in the classify and train methods in `perceptron_pacman.py`. This code should be similar to the methods you've written in `perceptron.py.`
 
