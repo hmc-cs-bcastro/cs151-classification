@@ -149,7 +149,7 @@ Unlike the naive Bayes classifier, a perceptron does not use probabilities to ma
 
 <div>
   
-![\( \mbox{score}(f,y) = \sum\limits_{i} f_i w^y_i \)](http://www.sciweavers.org/tex2img.php?eq=%5C%28%20%5Cmbox%7Bscore%7D%28f%2Cy%29%20%3D%20%5Csum%5Climits_%7Bi%7D%20f_i%20w%5Ey_i%20%5C%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![eq1](https://github.com/HEATlab/cs151-classification/blob/master/eq1.png)
 
 </div>
 
@@ -161,7 +161,7 @@ In the basic multi-class perceptron, we scan over the data, one instance at a ti
 
 <div>
   
-![y' = arg \max\limits_{y''} score(f,y'')](http://www.sciweavers.org/tex2img.php?eq=%5C%28%20y%27%20%3D%20arg%20%5Cmax%5Climits_%7By%27%27%7D%20score%28f%2Cy%27%27%29%20%5C%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![eq2](https://github.com/HEATlab/cs151-classification/blob/master/eq2.png)
 
 </div>
 
@@ -169,13 +169,13 @@ We compare *y'* to the true label \(y\). If *y' = y*, we've gotten the instance 
 
 <div>
 
-![w^y = w^y + f](http://www.sciweavers.org/tex2img.php?eq=%5C%28%20w%5Ey%20%3D%20w%5Ey%20%2B%20f%20%5C%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![eq3](https://github.com/HEATlab/cs151-classification/blob/master/eq3.png)
 
 </div>
 
 <div>
 
-![w^{y'} = w^{y'} - f](http://www.sciweavers.org/tex2img.php?eq=%5C%28%20w%5E%7By%27%7D%20%3D%20w%5E%7By%27%7D%20-%20f%20%5C%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![eq4](https://github.com/HEATlab/cs151-classification/blob/master/eq4.png)
 
 </div>
 
