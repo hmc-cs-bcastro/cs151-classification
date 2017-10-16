@@ -1,4 +1,4 @@
-## Project 6: Classification
+## Project 5: Classification
 Version 1.003. Last Updated: 10/16/2017.
 
 <div class="project">
